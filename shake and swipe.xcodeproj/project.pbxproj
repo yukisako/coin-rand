@@ -12,6 +12,12 @@
 		65FD99081C37A69B0097D0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FD99061C37A69B0097D0ED /* Main.storyboard */; };
 		65FD990A1C37A69B0097D0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FD99091C37A69B0097D0ED /* Assets.xcassets */; };
 		65FD990D1C37A69B0097D0ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FD990B1C37A69B0097D0ED /* LaunchScreen.storyboard */; };
+		65FD99211C37AD9A0097D0ED /* cin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 65FD991C1C37AD9A0097D0ED /* cin.wav */; };
+		65FD99221C37AD9A0097D0ED /* janp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 65FD991D1C37AD9A0097D0ED /* janp.wav */; };
+		65FD99231C37AD9A0097D0ED /* mdai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65FD991E1C37AD9A0097D0ED /* mdai.mp3 */; };
+		65FD99241C37AD9A0097D0ED /* paip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 65FD991F1C37AD9A0097D0ED /* paip.wav */; };
+		65FD99251C37AD9A0097D0ED /* timlim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65FD99201C37AD9A0097D0ED /* timlim.mp3 */; };
+		65FD99271C37B8D50097D0ED /* coin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 65FD99261C37B8D50097D0ED /* coin.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		65FD99091C37A69B0097D0ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65FD990C1C37A69B0097D0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65FD990E1C37A69B0097D0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FD991C1C37AD9A0097D0ED /* cin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cin.wav; path = sounds/cin.wav; sourceTree = "<group>"; };
+		65FD991D1C37AD9A0097D0ED /* janp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = janp.wav; path = sounds/janp.wav; sourceTree = "<group>"; };
+		65FD991E1C37AD9A0097D0ED /* mdai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = mdai.mp3; path = sounds/mdai.mp3; sourceTree = "<group>"; };
+		65FD991F1C37AD9A0097D0ED /* paip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = paip.wav; path = sounds/paip.wav; sourceTree = "<group>"; };
+		65FD99201C37AD9A0097D0ED /* timlim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = timlim.mp3; path = sounds/timlim.mp3; sourceTree = "<group>"; };
+		65FD99261C37B8D50097D0ED /* coin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coin.jpeg; path = sounds/coin.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,12 @@
 				65FD99021C37A69B0097D0ED /* AppDelegate.swift */,
 				65FD99041C37A69B0097D0ED /* ViewController.swift */,
 				65FD99061C37A69B0097D0ED /* Main.storyboard */,
+				65FD991C1C37AD9A0097D0ED /* cin.wav */,
+				65FD991D1C37AD9A0097D0ED /* janp.wav */,
+				65FD991E1C37AD9A0097D0ED /* mdai.mp3 */,
+				65FD99261C37B8D50097D0ED /* coin.jpeg */,
+				65FD991F1C37AD9A0097D0ED /* paip.wav */,
+				65FD99201C37AD9A0097D0ED /* timlim.mp3 */,
 				65FD99091C37A69B0097D0ED /* Assets.xcassets */,
 				65FD990B1C37A69B0097D0ED /* LaunchScreen.storyboard */,
 				65FD990E1C37A69B0097D0ED /* Info.plist */,
@@ -123,9 +141,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FD99271C37B8D50097D0ED /* coin.jpeg in Resources */,
+				65FD99221C37AD9A0097D0ED /* janp.wav in Resources */,
 				65FD990D1C37A69B0097D0ED /* LaunchScreen.storyboard in Resources */,
+				65FD99211C37AD9A0097D0ED /* cin.wav in Resources */,
 				65FD990A1C37A69B0097D0ED /* Assets.xcassets in Resources */,
+				65FD99251C37AD9A0097D0ED /* timlim.mp3 in Resources */,
 				65FD99081C37A69B0097D0ED /* Main.storyboard in Resources */,
+				65FD99231C37AD9A0097D0ED /* mdai.mp3 in Resources */,
+				65FD99241C37AD9A0097D0ED /* paip.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
